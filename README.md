@@ -20,6 +20,11 @@ Veuillez suivre ces étapes pour installer et configurer le projet sur votre mac
    ```bash
    git clone https://github.com/votre-utilisateur/StudyGeniusAI.git
 
+## Utilisation
+Pour démarrer l'application en mode développement, exécutez la commande suivante :
+npm start
+Accédez à l'application via http://localhost:3000.
+
 ## Contribution 
 Les contributions sont les bienvenues ! Veuillez lire les instructions suivantes pour savoir comment contribuer à ce projet :
 
