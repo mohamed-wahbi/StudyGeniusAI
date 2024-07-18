@@ -22,7 +22,9 @@ Veuillez suivre ces étapes pour installer et configurer le projet sur votre mac
 
 ## Utilisation
 Pour démarrer l'application en mode développement, exécutez la commande suivante :
-npm start
+   ```bash
+   npm start
+   ````  
 Accédez à l'application via http://localhost:3000.
 
 ## Contribution 
