@@ -43,7 +43,7 @@ Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 Toutes les modifications importantes apportées à ce projet seront documentées dans cette section.
 
 ## Contacts
-Pour toute question, suggestion ou demande de fonctionnalité, veuillez contacter l'équipe de développement à l'adresse suivante : email@studygeniusai.com.
+Pour toute question, suggestion ou demande de fonctionnalité, veuillez contacter l'équipe de développement à l'adresse suivante : wahbisj@gmail.com .
 
 # Merci d'utiliser StudyGeniusAI !
 Ce fichier `README.md` inclut une description complète du projet, les étapes d'installation et d'utilisation, des informations sur la contribution, la licence, un historique des modifications, et les coordonnées de contact. Adaptez-le selon les besoins spécifiques de votre projet.
