@@ -1,5 +1,6 @@
+require("dotenv").config();
 const mongoose = require ('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/StudyGenius')
+mongoose.connect(process.env.DBURL)
 .then(()=>console.log("Connection with DB *_*"))
 .catch((err)=>console.log(err))
 
