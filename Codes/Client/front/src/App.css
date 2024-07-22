@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+.home {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(202, 153, 153);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbarBottom {
+  height: 20vh;
+  width: 100%;
+  background-color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbarBottom .navbarBottomComponent {
+  width: 80%;
+  height: 100%;
+  background-color: rgb(185, 157, 157);
+  margin: auto;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+.navbarBottom .navbarBottomComponent .logo {
+  height: 100%;
+  width: 30%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 0px 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.navbarBottom .navbarBottomComponent .logo img {
+  height: 50%;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbarBottom .navbarBottomComponent .routes {
+  height: 100%;
+  width: 80%;
+  background-color: rgb(255, 0, 183);
+}
+
+.navbarBottom .navbarBottomComponent .socialMedia {
+  height: 100%;
+  width: 30%;
+  background-color: rgb(0, 145, 255);
 }

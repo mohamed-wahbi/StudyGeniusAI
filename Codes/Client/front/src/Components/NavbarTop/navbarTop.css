@@ -1,0 +1,153 @@
+.navbarTop {
+    height: 8vh;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+.navbarTopContent {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarTopContentLeft {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbarTopContentRight {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbarTopContentRight .loginBtn {
+    color: #449f73;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    transition: 0.3s;
+}
+
+.navbarTopContentRight .loginBtn:hover {
+    color: #183661;
+}
+
+.navbarTopContentRight .registerBtn {
+    background: #449f73;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin: 0px 10px;
+    border: none;
+}
+
+.navbarTopContentRight .registerBtn:hover {
+    background-color: #183661;
+}
+
+.navbarTopContentLeft .contacts {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #449f73;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.navbarTopContentLeft .contacts:hover {
+    color: #183661;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 992px) {
+    .navbarTopContent {
+        width: 90%;
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-around;
+        
+    }
+
+    .navbarTopContentLeft,
+    .navbarTopContentRight {
+        width: 50%;
+    }
+
+    .navbarTopContentLeft {
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbarTopContentRight .loginBtn,
+    .navbarTopContentRight .registerBtn {
+        font-size: 16px;
+    }
+
+    .navbarTopContentLeft .contacts {
+        font-size: 13px;
+        width: 100% !important;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbarTopContent {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbarTopContentLeft,
+    .navbarTopContentRight {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navbarTopContentRight {
+        margin-top: 10px;
+    }
+
+    .navbarTopContentRight .loginBtn,
+    .navbarTopContentRight .registerBtn {
+        font-size: 14px;
+        padding: 8px 12px;
+        margin: 5px;
+    }
+
+    .navbarTopContentLeft .contacts {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbarTop {
+        height: auto;
+    }
+
+    .navbarTopContent {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .navbarTopContentLeft .contacts {
+        font-size: 12px;
+    }
+
+    .navbarTopContentRight .loginBtn,
+    .navbarTopContentRight .registerBtn {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}
