@@ -1,0 +1,33 @@
+.carousel-item-background {
+    height: 600px;
+    /* Adjust height as needed */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(70 70 70);
+    background-blend-mode: multiply;
+}
+
+.titreHreaderCarocel {
+    color: whitesmoke;
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+
+/* Media query for screens with a width of 600px or less */
+@media (max-width: 600px) {
+    .carousel-item-background {
+        height: 400px;
+        /* Reduced height for smaller screens */
+    }
+
+    .titreHreaderCarocel {
+        font-size: 15px;
+        /* Corrected font-size spelling */
+        letter-spacing: 2px;
+        /* Reduced letter spacing for better readability */
+    }
+}
