@@ -1,0 +1,30 @@
+.welcomeMessage {
+    background-color: #182130;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcomeMessage .barRight {
+    background-color: #45a373;
+    height: 60%;
+    width: 2%;
+    
+}
+.welcomeMessage .barLeft {
+    background-color: #45a373;
+    height: 60%;
+    width: 2%;
+}
+
+.welcomeMessage .textMessage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    text-align: center;
+    color: whitesmoke;
+}

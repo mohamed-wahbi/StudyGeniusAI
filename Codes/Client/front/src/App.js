@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import logo from './Assets/logo.png'
 import NavbarBottom from './Components/NavbarBottom/NavbarBottom';
 import HeaderCarocel from './Components/HeaderCarocel/HeaderCarocel';
+import WelcomeMessage from './Components/WelcomeMessaqe/WelcomeMessage';
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       <NavbarTop />
       <NavbarBottom />
       <HeaderCarocel />
-
+      <WelcomeMessage />
     </div>
   )
 }
