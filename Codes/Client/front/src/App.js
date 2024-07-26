@@ -7,6 +7,7 @@ import logo from './Assets/logo.png'
 import NavbarBottom from './Components/NavbarBottom/NavbarBottom';
 import HeaderCarocel from './Components/HeaderCarocel/HeaderCarocel';
 import WelcomeMessage from './Components/WelcomeMessaqe/WelcomeMessage';
+import WhyAcademicsWorks from './Components/Why Academics Works/WhyAcademicsWorks';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <NavbarBottom />
       <HeaderCarocel />
       <WelcomeMessage />
+      <WhyAcademicsWorks />
     </div>
   )
 }

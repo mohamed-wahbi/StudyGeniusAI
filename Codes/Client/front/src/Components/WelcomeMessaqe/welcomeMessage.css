@@ -28,3 +28,11 @@
     text-align: center;
     color: whitesmoke;
 }
+
+
+
+@media (max-width: 576px) {
+        .textMessage {
+            width: 100% !important;
+        }
+    }
