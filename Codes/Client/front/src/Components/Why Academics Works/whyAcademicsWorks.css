@@ -1,0 +1,88 @@
+.exagoneForm {
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    position: absolute;
+    top: -45px;
+    background: #198754;
+    color: whitesmoke;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.whyAcademicsWorks {
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+}
+
+.whyAcademicsWorks .titre {
+    text-align: center;
+    padding: 10px 30px;
+    border-bottom: 5px solid #198754;
+    width: fit-content;
+    margin: auto;
+}
+
+.cardWhyAcademiWorks {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+
+
+}
+
+.cardWhyAcademiWorks .card {
+    height: 350px;
+    width: 300px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #bcbaba;
+
+}
+
+.cardWhyAcademiWorks .card .exagoneForm .imgSchool{
+    width: 70px;
+    background: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.cardWhyAcademiWorks .card .cardContentText {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.cardWhyAcademiWorks .card .cardContentText .title {
+    font-size: 1.3rem;
+    color: #000;
+ }
+
+ .cardWhyAcademiWorks .card .cardContentText .paragraphe {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: gray;
+ }
+
+ .cardWhyAcademiWorks .card .cardContentText .btnLearnMore {
+    background: #198754;
+    padding: 10px 15px;
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 6px;
+  }

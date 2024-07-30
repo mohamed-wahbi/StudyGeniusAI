@@ -48,6 +48,7 @@
     padding: 10px 15px;
     margin: 0px 10px;
     border: none;
+    border-radius: 6px;
 }
 
 .navbarTopContentRight .registerBtn:hover {
@@ -64,6 +65,7 @@
     font-size: 15px;
     cursor: pointer;
     transition: 0.4s;
+    padding: 0px !important;
 }
 
 .navbarTopContentLeft .contacts:hover {
