@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
-import BackgroundImage1 from '../../Assets/carocelImg/t1.webp';
-import BackgroundImage2 from '../../Assets/carocelImg/t2.webp';
-import BackgroundImage3 from '../../Assets/carocelImg/t3.webp';
+import BackgroundImage1 from '../../Assets/carocelImg/tt1.jpg';
+import BackgroundImage2 from '../../Assets/carocelImg/tt2.jpg';
+import BackgroundImage3 from '../../Assets/carocelImg/tt3.jpg';
 import './headerCarocel.css';
 
 const HeaderCarousel = () => {
