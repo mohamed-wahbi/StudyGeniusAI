@@ -1,7 +1,7 @@
 .navbarTop {
     height: 8vh;
     width: 100%;
-    background-color: #f8f9fa;
+    background-color: #202c40;
 }
 
 .navbarTopContent {
@@ -30,7 +30,7 @@
 }
 
 .navbarTopContentRight .loginBtn {
-    color: #449f73;
+    color: #cfcfcf;
     font-size: 18px;
     background: transparent;
     border: none;
@@ -38,12 +38,12 @@
 }
 
 .navbarTopContentRight .loginBtn:hover {
-    color: #183661;
+    color: #449f73;
 }
 
 .navbarTopContentRight .registerBtn {
     background: #449f73;
-    color: #fff;
+    color: #cfcfcf;
     font-size: 18px;
     padding: 10px 15px;
     margin: 0px 10px;

@@ -10,6 +10,7 @@ import WelcomeMessage from './Components/WelcomeMessaqe/WelcomeMessage';
 import WhyAcademicsWorks from './Components/Why Academics Works/WhyAcademicsWorks';
 import Formation from './Components/Formations/Formation';
 import BenificOfIntegration from './Components/BenificOfIntegrations/BenificOfIntegration';
+import AboutOurUniversity from './Components/AboutOurUniversity/AboutOurUniversity';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <WhyAcademicsWorks />
       <BenificOfIntegration />
       <Formation />
+      <AboutOurUniversity />
       
     </div>
   )

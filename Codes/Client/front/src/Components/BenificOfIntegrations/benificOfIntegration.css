@@ -58,3 +58,41 @@
     background: #1e4564;
     color: whitesmoke !important;
 }
+
+
+@media (max-width:1000px) {
+    .benefitsOfIntegration .benefitGroup {
+        width: auto;
+    }
+}
+
+
+@media (max-width:800px) {
+    .benefitsOfIntegration .benefitGroup .benefit {
+        width: 45%;
+    }}
+
+
+@media (max-width:450px) {
+    .benefitsOfIntegration .benefitGroup .benefit {
+        width: auto;
+        height: auto;
+    }
+
+    .benefitsOfIntegration .benefitGroup .benefit .benefitNumber {
+        font-size: 35px;
+        text-align: initial;
+    }
+
+    .benefitsOfIntegration .benefitGroup .benefit .benefitTitle {
+        text-align: initial;
+    }
+
+    .benefitsOfIntegration .benefitGroup .benefit .benefitText {
+        text-align: initial;
+        font-size: initial;
+    }
+
+
+
+}
