@@ -35,4 +35,8 @@
         .textMessage {
             width: 100% !important;
         }
+        .welcomeMessage  {
+            height: auto;
+            padding: 10px;
+        }
     }
