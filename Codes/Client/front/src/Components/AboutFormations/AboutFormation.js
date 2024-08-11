@@ -14,7 +14,7 @@ const AboutFormation = () => {
             let progress1 = 0;
             let progress2 = 0;
             const interval1 = setInterval(() => {
-                if (progress1 < 65) {
+                if (progress1 < 75) {
                     progress1 += 1;
                     setPercentage1(progress1);
                 } else {

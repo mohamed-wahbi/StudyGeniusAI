@@ -12,6 +12,8 @@ import Formation from './Components/Formations/Formation';
 import BenificOfIntegration from './Components/BenificOfIntegrations/BenificOfIntegration';
 import AboutOurUniversity from './Components/AboutOurUniversity/AboutOurUniversity';
 import AboutFormation from './Components/AboutFormations/AboutFormation';
+import NewsAndVideos from './Components/NewsAndViseos/NewsAndVideos';
+import Avie from './Components/Avies/Avie';
 
 const App = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
       <Formation />
       <AboutFormation />
       <AboutOurUniversity />
+      <NewsAndVideos />
+      <Avie />
       
     </div>
   )
