@@ -14,6 +14,7 @@ import AboutOurUniversity from './Components/AboutOurUniversity/AboutOurUniversi
 import AboutFormation from './Components/AboutFormations/AboutFormation';
 import NewsAndVideos from './Components/NewsAndViseos/NewsAndVideos';
 import Avie from './Components/Avies/Avie';
+import Footer from './Components/Footer/Footer';
 
 const App = () => {
   return (
@@ -29,6 +30,8 @@ const App = () => {
       <AboutOurUniversity />
       <NewsAndVideos />
       <Avie />
+
+      <Footer />
       
     </div>
   )
