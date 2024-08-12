@@ -28,7 +28,7 @@ const NavbarBottom = () => {
             navbarScroll
           >
             <Nav.Link
-              href="#action1"
+              href="/"
               className={`links ${activeLink === 'action1' ? 'active' : ''}`}
               onClick={() => handleSetActive('action1')}
             >
@@ -42,9 +42,10 @@ const NavbarBottom = () => {
               News
             </Nav.Link>
             <Nav.Link
-              href="#action3"
+              href="/contact"
               className={`links ${activeLink === 'action3' ? 'active' : ''}`}
               onClick={() => handleSetActive('action3')}
+              
             >
               Contact
             </Nav.Link>

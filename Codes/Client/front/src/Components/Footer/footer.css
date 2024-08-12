@@ -39,12 +39,10 @@
     top: -23px;
     left: -20px;
     padding: 15px;
-
     padding: 13px;
-    background: #e2e2e29d;
     border-radius: 4%;
     margin: 15px 20px;
-    border: 2px solid #f66335;
+    filter: drop-shadow(8px 6px 8px #f66335);
 }
 .footer_about{
     position: relative;
