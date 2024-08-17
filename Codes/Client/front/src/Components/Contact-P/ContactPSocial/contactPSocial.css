@@ -1,0 +1,136 @@
+.mainContactPSocial {
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.mainContactPSocial h3 {
+    text-align: center;
+    padding: 10px 30px;
+    border-bottom: 5px solid #198754;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+    text-transform: capitalize;
+}
+
+.mapLocation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, -45px);
+    position: relative;
+    z-index: 5;
+}
+
+.mapLocation .mapLocation {
+    width: 90%;
+    height: 60vh;
+    margin: auto !important;
+
+}
+
+
+.contactPSocial {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+    position: relative;
+    z-index: 7;
+    margin: 25px auto;
+    
+}
+
+
+
+
+.contactPSocial .socialContacts {
+    width: 260px;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    margin: 5px 6px;
+    box-shadow: 10px 10px 10px -3px;
+    background-color: #ecf4ff;
+    transition: 0.4s;
+}
+
+.contactPSocial .socialContacts:hover {
+    background: #202c40;
+    color: whitesmoke;
+}
+
+.contactPSocial .socialContacts i {
+    color: orange;
+    font-size: 50px;
+}
+
+.contactPSocial .socialContacts h6 {
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+
+ .contactPSocial .socialContacts p {
+    color: gray;
+    
+ }
+
+
+ @media (max-width: 750px) {
+    .contactPSocial .socialContacts i {
+        font-size: 25px;
+    }
+
+    .contactPSocial .socialContacts h6 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .contactPSocial .socialContacts p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .contactPSocial .socialContacts {
+        width: 190px;
+        height: 15vh;
+    }
+
+    .contactPSocial {
+            flex-wrap: nowrap;
+            width: auto;
+    }
+
+    .contactPSocial .socialContacts h6 {
+    }
+
+
+ }
+
+
+@media (max-width: 630px) {
+    .contactPSocial .socialContacts h6 {
+        font-size: 9px;
+    }
+
+    .contactPSocial .socialContacts p {
+        font-size: 7px;
+    }
+
+    .mapLocation .mapLocation {
+        width: 100%;
+        height: 60vh;
+        margin: auto !important;
+    
+    }
+    
+}
