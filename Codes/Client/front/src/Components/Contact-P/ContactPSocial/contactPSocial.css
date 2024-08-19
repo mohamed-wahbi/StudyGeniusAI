@@ -42,7 +42,7 @@
     position: relative;
     z-index: 7;
     margin: 25px auto;
-    
+
 }
 
 
@@ -77,15 +77,15 @@
 .contactPSocial .socialContacts h6 {
     font-weight: bold;
     text-transform: uppercase;
- }
+}
 
- .contactPSocial .socialContacts p {
+.contactPSocial .socialContacts p {
     color: gray;
-    
- }
+
+}
 
 
- @media (max-width: 750px) {
+@media (max-width: 750px) {
     .contactPSocial .socialContacts i {
         font-size: 25px;
     }
@@ -106,15 +106,14 @@
     }
 
     .contactPSocial {
-            flex-wrap: nowrap;
-            width: auto;
+        flex-wrap: nowrap;
+        width: auto;
     }
 
-    .contactPSocial .socialContacts h6 {
-    }
+    .contactPSocial .socialContacts h6 {}
 
 
- }
+}
 
 
 @media (max-width: 630px) {
@@ -130,7 +129,7 @@
         width: 100%;
         height: 60vh;
         margin: auto !important;
-    
+
     }
-    
+
 }
