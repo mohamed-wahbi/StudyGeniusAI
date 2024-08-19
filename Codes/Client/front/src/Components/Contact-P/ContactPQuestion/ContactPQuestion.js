@@ -70,8 +70,8 @@ const ContactPQuestion = () => {
                         </div>
 
                         <div className='questionInputs'>
-                            <input placeholder='Name' className='input' />
-                            <input placeholder='Email' className='input' />
+                            <input placeholder='Name' type='text' className='input' />
+                            <input placeholder='Email' type='email' className='input' />
                             <textarea placeholder='Message'  className='input' />
                         </div>
                         <div className='sendQuestionBtn'>

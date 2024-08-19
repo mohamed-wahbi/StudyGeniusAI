@@ -70,6 +70,8 @@
     border: none;
     border-bottom: 1px solid grey;
     padding: 10px;
+    background-color: transparent;
+    color: whitesmoke;
 }
 
 
@@ -127,5 +129,9 @@
 
     .contactPQuestion .questions .questForm .formQuestion {
         width: auto;
+    }
+
+    .contactPQuestion .questions .frequQuestions p {
+        padding-bottom: 30px;
     }
 }

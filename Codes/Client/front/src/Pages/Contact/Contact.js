@@ -5,6 +5,8 @@ import NavbarBottom from '../../Components/NavbarBottom/NavbarBottom.js'
 import ContactPHeader from '../../Components/Contact-P/ContactPHeader/ContactPHeader.js'
 import ContactPSocial from '../../Components/Contact-P/ContactPSocial/ContactPSocial.js'
 import ContactPQuestion from '../../Components/Contact-P/ContactPQuestion/ContactPQuestion.js'
+import Footer from '../../Components/Footer/Footer.js'
+import AboutTeam from '../../Components/Contact-P/AboutTeam/AboutTeam.js'
 
 const Contact = () => {
   return (
@@ -12,9 +14,13 @@ const Contact = () => {
       <NavbarTop />
       <NavbarBottom />
       <ContactPHeader />
+      
+      
+  
       <ContactPSocial />
-      <ContactPQuestion />
-     
+       <ContactPQuestion />
+      <AboutTeam />   
+      <Footer />
     </div>
   )
 }
