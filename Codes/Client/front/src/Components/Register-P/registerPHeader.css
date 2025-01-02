@@ -1,0 +1,112 @@
+.registerPHeader {
+    height: 40vh;
+    width: 100%;
+   
+}
+
+.registerPHeader .registerPHeaderImg {
+
+    background: rgb(18 50 87 / 73%);
+    height: 75%;
+    padding: 0px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-image: url('../../Assets/school/registerBack.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+
+   
+
+}
+
+.registerPHeader .registerPHeaderImg p {
+    font-size: 18px;
+}
+
+.registerPHeader .registerPHeaderRoute {
+    height: 25%;
+    background: #f8f8f8;
+    display: flex
+;
+    align-items: center;
+    padding: 0px 200px;
+    border-bottom: 1px solid #bdbdbd;
+    color: #bdbdbd;
+    font-size: 16px;
+}
+
+.registerPHeader .registerPHeaderRoute a {
+    color: #bdbdbd;
+    padding-right: 10px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.registerPHeader .registerPHeaderRoute a:hover {
+    color: #449f73;
+}
+
+.registerPHeader .registerPHeaderRoute b {
+    padding-left: 10px;
+}
+
+
+@media (max-width:800px ){
+    .registerPHeader .registerPHeaderImg {
+        padding: 0px 30px;
+    }
+
+    .registerPHeader .registerPHeaderRoute {
+        padding: 0px 30px;
+    }
+
+    .registerPHeader .registerPHeaderImg p {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:800px ){
+    .contactPHeader .contactPHeaderImg {
+        padding: 0px 30px;
+    }
+
+    .contactPHeader .contactPHeaderRoute {
+        padding: 0px 30px;
+    }
+
+    .contactPHeader .contactPHeaderImg p {
+        font-size: 15px;
+    }
+}
