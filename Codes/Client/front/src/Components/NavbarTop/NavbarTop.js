@@ -1,5 +1,6 @@
 import React from 'react'
 import './navbarTop.css'
+import { Link } from 'react-router-dom'
 const NavbarTop = () => {
   return (
     <div className='navbarTop'>
@@ -11,7 +12,8 @@ const NavbarTop = () => {
         </div>
         <div className='navbarTopContentRight'>
           <button className='loginBtn'> <i class="bi bi-unlock"></i> Login</button>
-          <button className='registerBtn'> <i class="bi bi-person-add"></i> Register</button>
+          <Link to={"/register"}> <button className='registerBtn'> <i class="bi bi-person-add"></i> Register</button> </Link>
+          
         </div>
       </div>
     </div>
