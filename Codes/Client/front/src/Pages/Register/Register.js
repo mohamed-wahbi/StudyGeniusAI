@@ -5,6 +5,7 @@ import NavbarBottom from '../../Components/NavbarBottom/NavbarBottom'
 import RegisterPHeader from '../../Components/Register-P/RegisterPHeader/RegisterPHeader'
 import RegisterPForm from '../../Components/Register-P/RegisterPForm/RegisterPForm'
 import Footer from '../../Components/Footer/Footer'
+import RegisterPInfos from '../../Components/Register-P/RegisterPInfos/RegisterPInfos'
 
 const Register = () => {
   return (
@@ -13,6 +14,7 @@ const Register = () => {
       <NavbarBottom />
       <RegisterPHeader />
       <RegisterPForm />
+      <RegisterPInfos />
       <Footer />
     </div>
   )
