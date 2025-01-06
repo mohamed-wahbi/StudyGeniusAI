@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import "./registerPForm.css";
+import { useNavigate } from "react-router";
 
 const RegisterPForm = () => {
+  const navigation = useNavigate()
   const [captchaVerified, setCaptchaVerified] = useState(false);
   const [step, setStep] = useState(1);
   const [formData, setFormData] = useState({
@@ -46,6 +48,8 @@ const RegisterPForm = () => {
     }
     alert("Registration Completed!");
     console.log(formData)
+    navigation ("/login")
+
   };
 
   const handleCaptchaChange = (value) => {
