@@ -11,7 +11,7 @@ const NavbarTop = () => {
           <div className='contacts'> <i class="bi bi-envelope" style={{marginRight:"5px" , color:"#cfcfcf"}}>  </i> StudyGeniousAI@gmail.com</div>
         </div>
         <div className='navbarTopContentRight'>
-          <button className='loginBtn'> <i class="bi bi-unlock"></i> Login</button>
+          <Link to={"/login"}><button className='loginBtn'> <i class="bi bi-unlock"></i> Login</button></Link>
           <Link to={"/register"}> <button className='registerBtn'> <i class="bi bi-person-add"></i> Register</button> </Link>
           
         </div>
